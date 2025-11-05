@@ -1,6 +1,15 @@
 # Clinical Text Summarization by Adapting LLMs | Nature Medicine
 
-<img src='data/overview.png'/>
+An advanced AI system for automatically summarizing clinical text across multiple medical domains. This project leverages state-of-the-art Large Language Models (LLMs) to transform lengthy medical documents into concise, accurate summaries - helping healthcare professionals save time and improve patient care.
+
+**Key Capabilities:**
+- 🏥 **Radiology Reports**: Condense detailed findings into clear impressions (3.8x compression)
+- 💬 **Patient Questions**: Simplify complex health queries into focused questions (6.2x compression)  
+- 📋 **Clinical Dialogues**: Extract structured treatment plans from doctor-patient conversations
+- 🎯 **Multiple Models**: Support for open-source (FLAN-T5, Llama-2) and proprietary (GPT-3.5/4) models
+- 📊 **Interactive Dashboards**: Beautiful visualizations of medical data and model performance
+
+Based on research published in *Nature Medicine*, demonstrating that adapted LLMs can outperform medical experts in clinical text summarization tasks.
 
 ---
 
@@ -186,26 +195,3 @@ Three datasets are included in `data/`:
 | **Calculate metrics** | `python src/calc_metrics.py --model MODEL --case_id ID --dataset DATASET --n_samples 999` |
 | **Setup project** | `python setup_project.py` |
 
-For detailed guides, see:
-- [DASHBOARD_GUIDE.md](DASHBOARD_GUIDE.md) - Interactive tools
-- [HOW_TO_USE.md](HOW_TO_USE.md) - Complete usage guide
-- [QUICKSTART.md](QUICKSTART.md) - Step-by-step instructions
-
-## Citation
-
-```
-@article{vanveen2024clinical,
-  title={Adapted Large Language Models Can Outperform Medical Experts in Clinical Text Summarization},
-  author={Van Veen, Dave and Van Uden, Cara and Blankemeier, Louis and Delbrouck, Jean-Benoit and Aali, Asad and Bluethgen, Christian and Pareek, Anuj and Polacin, Malgorzata and Collins, William and Ahuja, Neera and Langlotz, Curtis P. and Hom, Jason and Gatidis, Sergios and Pauly, John and Chaudhari, Akshay S.},
-  journal={Nature Medicine},
-  year={2024},
-  doi={10.1038/s41591-024-02855-5},
-  url={https://doi.org/10.1038/s41591-024-02855-5},
-  published={27 February 2024}
-}
-```
-
-## License
-
-- `src/UMLSScorer.py` requires a [UMLS license](https://www.nlm.nih.gov/research/umls/index.html).
-- The remainder of this project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
