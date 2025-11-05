@@ -1,0 +1,36 @@
+# Core dependencies
+torch
+torchvision
+torchaudio
+transformers>=4.34.0
+peft
+sentence-transformers
+tokenizers
+
+# NLP & Metrics
+bert-score
+evaluate
+rouge-score
+nltk
+sentencepiece
+
+# ML & Scientific
+numpy
+scipy
+scikit-learn
+pandas
+matplotlib
+
+# Vector search
+faiss-cpu
+
+# OpenAI
+tiktoken
+
+# Utilities
+pyyaml
+click
+filelock
+tqdm
+requests
+psutil

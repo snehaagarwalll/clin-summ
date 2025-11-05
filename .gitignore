@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Data directories (large files)
+data/
+*.csv
+*.jsonl
+*.bin
+
+# Model checkpoints and outputs
+output/
+models/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Logs
+logs/
+*.log
+tensorboard/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
